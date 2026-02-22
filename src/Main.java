@@ -30,5 +30,20 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным.");
         }
+
+        /// #4
+        int deliveryDistanse = 95;
+        if (deliveryDistanse <= 20) {
+            int deliveryDays = 1;
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else if (deliveryDistanse > 20 && deliveryDistanse <= 60) {
+            int deliveryDays = 2;
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else if (deliveryDistanse > 60 && deliveryDistanse <= 100) {
+            int deliveryDays = 3;
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else {
+            System.out.println("Доставка не осуществляется.");
+        }
     }
 }
