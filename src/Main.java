@@ -20,5 +20,15 @@ public class Main {
         } else {
             System.out.println("Установите версию приложения для " + (clientOS == 0 ? "iOS" : "Android") + " по ссылке:");
         }
+
+        /// #3
+        int year = 2021;
+        if (year < 1584) {
+            System.out.println(year + " год не является високосным.");
+        } else if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            System.out.println(year + " год является високосным.");
+        } else {
+            System.out.println(year + " год не является високосным.");
+        }
     }
 }
