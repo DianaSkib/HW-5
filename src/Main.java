@@ -20,7 +20,6 @@ public class Main {
         } else {
             System.out.println("Установите версию приложения для " + (clientOs == 0 ? "iOS" : "Android") + " по ссылке:");
         }
-
         /// #3
         int year = 2021;
         if (year < 1584) {
@@ -30,7 +29,6 @@ public class Main {
         } else {
             System.out.println(year + " год не является високосным.");
         }
-
         /// #4
         int deliveryDistance = 95;
         if (deliveryDistance <= 20) {
@@ -45,7 +43,6 @@ public class Main {
         } else {
             System.out.println("Доставка не осуществляется.");
         }
-
         /// #5
         int monthNumber = 12;
         switch (monthNumber) {
