@@ -43,6 +43,7 @@ public class Main {
         } else {
             System.out.println("Доставка не осуществляется.");
         }
+
         /// #5
         int monthNumber = 12;
         switch (monthNumber) {
